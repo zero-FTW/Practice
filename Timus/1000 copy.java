@@ -9,6 +9,7 @@ public class JavaApplication1 {
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
         int b = in.nextInt();
-        System.out.println(a + b);
+	int total = a + b;
+        System.out.println(total);
     }
 }
