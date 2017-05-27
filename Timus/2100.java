@@ -8,7 +8,7 @@ public class JavaApplication1 {
         in.nextLine();
         for (int a = 0; a < num; a++) {
             String str = in.nextLine();
-            if (str.indexOf("+one") != -1) {
+            if (str.contains("+one")) {
                 total++;
             }
         }
